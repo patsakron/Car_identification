@@ -78,7 +78,7 @@ void MainWindow::on_btPrevious_clicked()
     showImage(imagesList[imagesCount]);
 
     //Check if first image
-    if(imagesCount-1 == 0)
+    if(imagesCount == 0)
         ui->btPrevious->setEnabled(false);
 }
 

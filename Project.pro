@@ -15,7 +15,9 @@ TEMPLATE = app
 SOURCES += main.cpp\
         mainwindow.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    ../Documents/sense-ml-new/image_impl.h \
+    ../Documents/sense-ml-new/image.h
 
 FORMS    += mainwindow.ui
 
